@@ -4,8 +4,11 @@
 	"installOptions": {},
 	"scripts": {
 		"build:css": "postcss",
-    "bundle:*": "@snowpack/plugin-react-refresh",
+		"bundle:*": "@snowpack/plugin-react-refresh",
 		"bundle:*": "@snowpack/plugin-webpack"
 	},
-	"plugins": ["@snowpack/plugin-webpack", "@snowpack/plugin-react-refresh"]
+	"plugins": ["@snowpack/plugin-webpack", "@snowpack/plugin-react-refresh"],
+	"devOptions": {
+		"out": "dist"
+	}
 }
