@@ -1,7 +1,5 @@
 {
 	"extends": "@snowpack/app-scripts-react",
-	"homepage": "",
-	"installOptions": {},
 	"scripts": {
 		"build:css": "postcss",
 		"bundle:*": "@snowpack/plugin-react-refresh",
