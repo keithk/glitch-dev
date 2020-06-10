@@ -55,7 +55,7 @@ export default function Home() {
 					))}
 				</div>
 			</section>
-			<footer className="bg-gray-200 text-center m-4">
+			<footer className="bg-gray-200 text-center pt-4 pb-2">
 				<a href="https://glitch.com">
 					<img
 						className="inline pb-4 mr-2 md:mr-6 w-12"
